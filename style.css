@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+colorpalette{
+    color: 
+    #FFFFFF 
+	#27242b 
+	#27242b
+	#3d9f96 
+	#322f36 
+	#f7f7f7 
+	#f9f9f9 
+	#ababab 
+	#7e7e7e 
+	#27242b;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #27242b;
+    height: 6vh;
+    padding:30px 10px;
+    font-weight: 700;
+}
+
+.logo{
+    max-width: 35%;
+    max-height: 75%;
+    cursor: pointer;
+}
+
+
+ul .navLinks{
+    list-style: none;
+    display: inline-flex;
+  
+}
+
+.navLinks li{
+    display: inline-flex;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+nav ul a{
+    color: #f7f7f7;
+    padding: 10px 20px;
+}
+
+.getNow{
+    color: #3d9f96;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+
+.banner{
+    display: block;
+    color: #f7f7f7;
+    text-align: center;
+    line-height: 3em;
+    background-color: #27242b;
+    
+}
+
+section>h1{
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+.newApp{
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+
+h2{
+    font-size: 1em;
+    font-family: Raleway, Arial, sans-serif;
+    color: #3d9f96;
+    text-align: center;
+}
+
+section>p{
+    font-weight: 100;
+}
+
+.greenButton{
+    background-color: #3d9f96;
+    border-color: #3d9f96;
+    border-radius: 30px;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #f7f7f7;
+    padding: 1% 4%;
+    margin-top: 3%;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.greenButton:hover{
+    background-color: rgba(61, 159, 150, 0.9);
+    
+}
+
+.laptop{
+    margin-top: 8%;
+}
+
+.laptop>img{
+    width: 50%;
+}
+
+.socialSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #f9f9f9;
+
+}
+
+.socialSection>img{
+    padding: 2%;
+    
+}
+
+h2.socialSection{
+    padding-top: 20px;
+    padding-bottom: 6%;  
+}
+
+.appSection{
+    text-align: center;
+    padding: 4%;
+}
+
+section>h3{
+    font-size: 2em;
+    font-weight: 100;
+    padding-bottom: 5%;
+}
+
+section.play{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: url(./assets/img/map_bg.png);
+    background-size: cover;
+    background-position: 0 68%;
+    width: 100%;
+}
+
+div.col-awesomeness{
+    padding: 6%;
+    width: 15%;
+}
+
+div.col-awesomeness img.iphone{
+    width: 100%;
+}
+
+section p{
+    color: #7e7e7e;
+}
+
+.play h4{
+    font-size: 1.5em;
+    font-family: Raleway, Arial, sans-serif;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.play .playItem{
+    padding-bottom: 15px;
+}
+
+
+    
+
