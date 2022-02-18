@@ -25,7 +25,7 @@ li, a{
 header{
     display: flex;
     justify-content: space-evenly;
-    background-color: #27242b;
+    background: url(./assets/img/header_bg.jpg);
     height: 6vh;
     padding:30px 10px;
     font-weight: 700;
@@ -66,7 +66,7 @@ nav ul a{
     color: #f7f7f7;
     text-align: center;
     line-height: 3em;
-    background-color: #27242b;
+    background: url(./assets/img/header_bg.jpg);
     
 }
 
@@ -108,7 +108,7 @@ section>p{
 }
 
 .greenButton:hover{
-    background-color: rgba(61, 159, 150, 0.9);
+    background-color: rgba(61, 159, 150, 0.8);
     
 }
 
@@ -156,7 +156,7 @@ section.play{
     background: url(./assets/img/map_bg.png);
     background-size: cover;
     background-position: 0 68%;
-    width: 100%;
+    padding: 0 2%;
 }
 
 div.col-awesomeness{
@@ -183,6 +183,61 @@ section p{
     padding-bottom: 15px;
 }
 
+section.citation{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: url(./assets/img/seperator1-.jpg);
+    color: #f7f7f7;
+}
 
-    
+section.citation p{
+    color: #f7f7f7;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: medium;
+    line-height: 2em;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+section.citation h5{
+    color: #3d9f96;
+    padding: 15px;
+    font-size: large;
+  
+}
+
+section.screenshot{
+    padding: 0 18%;
+    background-color: #f9f9f9;
+}
+
+
+section.screenshot h5{
+    font-size: x-large;
+    font-weight: 100;
+    padding: 50px 0;
+}
+
+section.screenshot h5 span{
+    font-weight: 600;
+}   
+
+div.screenBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.screenBox figure{
+    padding-right:  3%;
+}
+
+div.screenBox figcaption{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: medium;
+    font-family: Raleway, Arial, sans-serif;
+}
 
