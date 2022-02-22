@@ -24,15 +24,18 @@ li, a{
 
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     background: url(./assets/img/header_bg.jpg);
     height: 6vh;
-    padding:30px 10px;
+    padding:30px 0;
     font-weight: 700;
 }
 
+
 .logo{
-    max-width: 35%;
+    max-width: 20%;
     max-height: 75%;
     cursor: pointer;
 }
@@ -66,7 +69,9 @@ nav ul a{
     color: #f7f7f7;
     text-align: center;
     line-height: 3em;
+    border-top: solid #322f36 0.1px;
     background: url(./assets/img/header_bg.jpg);
+    padding-top: 5%;
     
 }
 
@@ -95,11 +100,11 @@ section>p{
 
 .greenButton{
     background-color: #3d9f96;
-    border-color: #3d9f96;
+    border: none;
     border-radius: 30px;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 0.8em;
     color: #f7f7f7;
     padding: 1% 4%;
     margin-top: 3%;
@@ -108,16 +113,19 @@ section>p{
 }
 
 .greenButton:hover{
-    background-color: rgba(61, 159, 150, 0.8);
+    background-color: rgba(61, 159, 150, 0.9);
+    box-shadow: rgb(27, 26, 26) 0px 8px 20px -8px
     
 }
 
-.laptop{
-    margin-top: 8%;
-}
+/* .laptop{
+    margin-top: 5%;
+} */
 
 .laptop>img{
     width: 50%;
+    position: relative;
+    top: 140px;
 }
 
 .socialSection{
@@ -125,7 +133,8 @@ section>p{
     justify-content: center;
     padding-top: 30px;
     background-color: #f9f9f9;
-
+    position: relative;
+    z-index: 2;
 }
 
 .socialSection>img{
@@ -146,7 +155,7 @@ h2.socialSection{
 section>h3{
     font-size: 2em;
     font-weight: 100;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 section.play{
@@ -156,20 +165,24 @@ section.play{
     background: url(./assets/img/map_bg.png);
     background-size: cover;
     background-position: 0 68%;
-    padding: 0 2%;
+    align-items: center;
 }
 
 div.col-awesomeness{
-    padding: 6%;
-    width: 15%;
+    padding: 2% 3%;
+    width: 18%;
 }
 
 div.col-awesomeness img.iphone{
+    position: relative;
+    top: -27px;
     width: 100%;
 }
 
 section p{
     color: #7e7e7e;
+    font-weight: 500;
+    line-height: 1.8em;
 }
 
 .play h4{
@@ -194,7 +207,7 @@ section.citation{
 section.citation p{
     color: #f7f7f7;
     font-family: Raleway, Arial, sans-serif;
-    font-size: medium;
+    font-size: large;
     line-height: 2em;
     font-weight: 300;
     padding-top: 15px;
@@ -219,8 +232,10 @@ section.screenshot h5{
     padding: 50px 0;
 }
 
-section.screenshot h5 span{
+span{ 
     font-weight: 600;
+    font-family: Raleway, Arial, sans-serif;
+
 }   
 
 div.screenBox{
@@ -229,7 +244,7 @@ div.screenBox{
 }
 
 div.screenBox figure{
-    padding-right:  3%;
+    padding-right: 1%;
 }
 
 div.screenBox figcaption{
@@ -240,4 +255,111 @@ div.screenBox figcaption{
     font-size: medium;
     font-family: Raleway, Arial, sans-serif;
 }
+
+.articles img{
+    width: 100%;
+}
+
+div.tested{
+    padding: 8% 18%;
+    display: flex;
+    justify-items: flex-start;
+    align-items: top;
+}
+
+div.responsive{
+    padding: 8% 18%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-start;
+    align-items: top;
+
+}
+
+h5{
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-bottom: 5%;
+}
+
+.testedTxt{
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+
+.testedTxt .greenButton{
+    width: 40%;
+    height: 4vh;
+    margin-top: 10%;
+}
+
+footer .footerRow{
+    display: flex;
+    background: #f7f7f7;
+    justify-content: space-around;
+    align-items: top;
+}
+
+footer h6{
+    font-size: xx-large;
+}
+
+footer p, li{
+    color: #7e7e7e;
+    list-style: none;
+    font-size: 17px;
+    line-height: 2em;
+}
+
+footer img{
+    width: 100%;
+}
+
+footer .column1{
+    padding: 5% 10%;
+    flex: 2;
+}
+
+footer .column2{
+    flex: 1;
+    padding: 5% 5%;
+}
+
+footer ul li a:visited{
+    color: #7e7e7e;
+
+}
+
+footer .column3{
+    flex: 2;
+    padding: 5% 5%;
+}
+
+section.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10%;
+}
+
+.icons{
+    width: 25%;
+}
+
+.copyright .icons a{
+    display: inline-flex;
+    padding: 0 5%;
+}
+
+
+.copyright .icons img{
+    width: 120%;
+}
+
+.copyright .icons img:hover{
+    background: #7e7e7e;
+}
+
+
 
